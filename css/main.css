@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.count {
+    width: 1403px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.header__logo {
+display: flex;
+justify-content: center;
+font-size: 30px;
+   text-decoration: none;
+    color: #bababa;
+font-family: 'Courier New', Courier, monospace;
+
+}
+.me__list {
+    font-size: 50px ;
+  font-family: monospace;
+}
+.div__Me {
+    margin-top: 100px;
+}
+.me__info-info {
+    margin-top: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.img__me {
+    display: flex;
+    justify-content: flex-start;
+  gap: 20px;
+    margin-top: 50px;
+}
+.logo__icon {
+  position: absolute;
+top: 100px;
+   right: 350px;
+    width: 400px;
+}
